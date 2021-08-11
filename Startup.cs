@@ -35,7 +35,7 @@ namespace WebShop
              .EnableSensitiveDataLogging()
              .EnableDetailedErrors());
 
-            
+            //Just a cooment.
 
             services.AddIdentity<ApplicationUser, IdentityRole>()
               .AddEntityFrameworkStores<ApplicationDbContext>()
