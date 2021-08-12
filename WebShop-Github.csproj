@@ -26,6 +26,8 @@
     <Compile Remove="Migrations\20210810111227_AddRolesToDB.Designer.cs" />
     <Compile Remove="Migrations\20210811130732_Initial.cs" />
     <Compile Remove="Migrations\20210811130732_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20210811145738_OverInitial.cs" />
+    <Compile Remove="Migrations\20210811145738_OverInitial.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>

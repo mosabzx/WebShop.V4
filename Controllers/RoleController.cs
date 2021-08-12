@@ -19,7 +19,7 @@ namespace WebShop.Controllers
             roleManager = roleMgr;
             userManager = userMrg;
         }
-        //[Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin")]
         public ViewResult RolesList()
         {
             return View(roleManager.Roles);
